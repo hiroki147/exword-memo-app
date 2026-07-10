@@ -1,0 +1,534 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(file.o)
+                              src/libct/ui/dialog/system_storage_info.o (sys_totaldiskspace)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(misc.o)
+                              src/libc/logger.o (sys_dict_info)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                              src/libct/fonts/jpn-font.o (draw_glyph)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                              /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o) (set_pixel)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+                              src/main.o (create_rgb16)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                              /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o) (lcdc_get_vram_address)
+/home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                              src/main.o (keypad_read)
+
+Allocating common symbols
+Common symbol       size              file
+
+type                0x4               src/libct/fsc/fs-control.o
+key_state           0xc               /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+handle              0x4               src/libct/fsc/fs-control.o
+filename            0x40              src/libct/fsc/fs-control.o
+key_press           0xc               /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+ret                 0x4               src/libct/fsc/fs-control.o
+
+Discarded input sections
+
+ .comment       0x0000000000000000       0x22 src/main.o
+ .comment       0x0000000000000000       0x22 src/libc/isdigit.o
+ .comment       0x0000000000000000       0x22 src/libc/logger.o
+ .comment       0x0000000000000000       0x22 src/libc/memcmp.o
+ .comment       0x0000000000000000       0x22 src/libc/memmgr.o
+ .comment       0x0000000000000000       0x22 src/libc/sprintf.o
+ .comment       0x0000000000000000       0x22 src/libc/stdio.o
+ .comment       0x0000000000000000       0x22 src/libc/stdlib.o
+ .comment       0x0000000000000000       0x22 src/libc/strcasecmp.o
+ .comment       0x0000000000000000       0x22 src/libc/strcat.o
+ .comment       0x0000000000000000       0x22 src/libc/strchr.o
+ .comment       0x0000000000000000       0x22 src/libc/strchrnul.o
+ .comment       0x0000000000000000       0x22 src/libc/strcmp.o
+ .comment       0x0000000000000000       0x22 src/libc/strdup.o
+ .comment       0x0000000000000000       0x22 src/libc/strncat.o
+ .comment       0x0000000000000000       0x22 src/libc/strpbrk.o
+ .comment       0x0000000000000000       0x22 src/libc/strrchr.o
+ .comment       0x0000000000000000       0x22 src/libc/time.o
+ .comment       0x0000000000000000       0x22 src/libc/tolower.o
+ .comment       0x0000000000000000       0x22 src/libct/input.o
+ .comment       0x0000000000000000       0x22 src/libct/print.o
+ .comment       0x0000000000000000       0x22 src/libct/fsc/fs-control.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/dialog/user_input_dialog.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/dialog/user_select_dialog.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/dialog/memo_editor.o
+ .comment       0x0000000000000000       0x22 src/libct/fonts/jpn-font.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/dialog/system_storage_info.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/dialog/file_copy.o
+ .comment       0x0000000000000000       0x22 src/libct/ui/fake_UI/Binary_view.o
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(file.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(misc.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+ .comment       0x0000000000000000       0x22 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000070000080 0x000000000001ff80 xr
+ram              0x000000007400004c 0x0000000000007fb4 w
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+
+.text           0x0000000070000080     0x845c
+                0x0000000070000080                _stext = .
+ *(.text)
+ .text          0x0000000070000080       0xa4 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+                0x0000000070000080                start
+ .text          0x0000000070000124      0x51c src/main.o
+                0x00000000700002f8                get_selected_filename
+                0x0000000070000328                get_selected_fullpath
+                0x00000000700003ec                display_file_list
+ .text          0x0000000070000640        0xc src/libc/isdigit.o
+                0x0000000070000640                isdigit
+ .text          0x000000007000064c      0x1b0 src/libc/logger.o
+                0x000000007000064c                log_filename
+                0x00000000700006a4                log_init
+                0x0000000070000728                log_fini
+                0x000000007000074c                log_write
+                0x00000000700007a0                die
+ .text          0x00000000700007fc       0x2c src/libc/memcmp.o
+                0x00000000700007fc                memcmp
+ .text          0x0000000070000828      0x434 src/libc/memmgr.o
+                0x0000000070000828                get_r_hdr
+                0x0000000070000850                set_mem_pool
+                0x00000000700008d0                memmgr_init
+                0x0000000070000968                memmgr_print_stats
+                0x0000000070000a44                memmgr_free
+                0x0000000070000ac0                memmgr_alloc
+                0x0000000070000bcc                memmgr_realloc
+ .text          0x0000000070000c5c      0x3a0 src/libc/sprintf.o
+                0x0000000070000fc4                sprintf
+                0x0000000070000fe4                vsprintf
+ .text          0x0000000070000ffc      0x2b8 src/libc/stdio.o
+                0x0000000070000ffc                fopen
+                0x000000007000109c                fclose
+                0x00000000700010c0                fseek
+                0x0000000070001108                fread
+                0x0000000070001170                fwrite
+                0x00000000700011ac                fgets
+                0x00000000700012ac                feof
+                0x00000000700012b0                fileno
+ .text          0x00000000700012b4      0x1a4 src/libc/stdlib.o
+                0x00000000700012b4                srand
+                0x00000000700012c0                rand
+                0x00000000700012e4                exit
+                0x0000000070001308                atexit
+                0x0000000070001314                atoi
+ .text          0x0000000070001458       0x4c src/libc/strcasecmp.o
+                0x0000000070001458                strcasecmp
+ .text          0x00000000700014a4       0x24 src/libc/strcat.o
+                0x00000000700014a4                strcat
+ .text          0x00000000700014c8       0x1c src/libc/strchr.o
+                0x00000000700014c8                strchr
+ .text          0x00000000700014e4       0x2c src/libc/strchrnul.o
+                0x00000000700014e4                strchrnul
+ .text          0x0000000070001510       0x28 src/libc/strcmp.o
+                0x0000000070001510                strcmp
+ .text          0x0000000070001538       0x40 src/libc/strdup.o
+                0x0000000070001538                strdup
+ .text          0x0000000070001578       0x40 src/libc/strncat.o
+                0x0000000070001578                strncat
+ .text          0x00000000700015b8       0x34 src/libc/strpbrk.o
+                0x00000000700015b8                strpbrk
+ .text          0x00000000700015ec       0x20 src/libc/strrchr.o
+                0x00000000700015ec                strrchr
+ .text          0x000000007000160c      0x1a0 src/libc/time.o
+                0x000000007000160c                time
+ .text          0x00000000700017ac       0x10 src/libc/tolower.o
+                0x00000000700017ac                tolower
+ .text          0x00000000700017bc       0x64 src/libct/input.o
+                0x00000000700017bc                ct_get_current_keycode
+                0x0000000070001808                keycode_to_text
+ .text          0x0000000070001820       0x8c src/libct/print.o
+                0x0000000070001820                ct_print
+                0x0000000070001850                ct_screen_clear
+                0x0000000070001874                ct_screen_rect
+ .text          0x00000000700018ac      0x4ac src/libct/fsc/fs-control.o
+                0x00000000700018ac                get_file_list
+                0x00000000700019cc                element_delete
+                0x00000000700019d8                file_create
+                0x0000000070001ae0                directory_create
+                0x0000000070001be8                file_copy
+ .text          0x0000000070001d58      0xa30 src/libct/ui/dialog/user_input_dialog.o
+                0x0000000070001d58                user_input_dialog
+                0x0000000070002004                yes_or_no_dialog
+                0x0000000070002108                popup_dialog
+                0x00000000700021dc                info_list
+                0x0000000070002350                konami_command_warn_dialog
+ .text          0x0000000070002788      0x41c src/libct/ui/dialog/user_select_dialog.o
+                0x0000000070002788                user_select_dialog
+ .text          0x0000000070002ba4      0xb30 src/libct/ui/dialog/memo_editor.o
+                0x0000000070002ee4                memo_editor
+ .text          0x00000000700036d4      0x8b8 src/libct/fonts/jpn-font.o
+                0x00000000700036d4                get_jpn_font
+                0x00000000700036e0                set_jpn_font
+                0x00000000700036f0                render_text_jpn_halfwidth
+                0x00000000700037e0                render_text_utf8_jpn
+ .text          0x0000000070003f8c      0x694 src/libct/ui/dialog/system_storage_info.o
+                0x00000000700040bc                scale_bytes
+                0x0000000070004120                format_size
+                0x0000000070004260                system_storage_info_dialog
+ .text          0x0000000070004620      0x34c src/libct/ui/dialog/file_copy.o
+                0x0000000070004620                file_copy_dialog
+ .text          0x000000007000496c      0xa28 src/libct/ui/fake_UI/Binary_view.o
+                0x0000000070004f88                Binary_viewer
+ .text          0x0000000070005394       0x20 src/libc/_exit.o
+                0x0000000070005394                _exit
+                0x0000000070005394                _Exit
+ *fill*         0x00000000700053b4        0xc 
+ .text          0x00000000700053c0      0x300 src/libc/memcpy.o
+                0x0000000070005432                memcpy
+ .text          0x00000000700056c0       0x8a src/libc/memset.o
+                0x00000000700056c0                memset
+ .text          0x000000007000574a       0x10 src/libc/strcpy.o
+                0x000000007000574a                strcpy
+ .text          0x000000007000575a       0x1e src/libc/strlen.o
+                0x000000007000575a                strlen
+ .text          0x0000000070005778       0x28 src/libc/strncpy.o
+                0x0000000070005778                strncpy
+ .text          0x00000000700057a0       0x6c src/libc/udivsi3.o
+                0x00000000700057c2                __udivsi3
+ .text          0x000000007000580c      0x424 src/libc/udivsi3_i4i.o
+                0x000000007000580c                __udivsi3_i4
+                0x000000007000580c                __udivsi3_i4i
+                0x00000000700058dc                __sdivsi3
+                0x00000000700058dc                __sdivsi3_i4
+                0x00000000700058dc                __sdivsi3_i4i
+ .text          0x0000000070005c30      0x154 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(file.o)
+                0x0000000070005c30                sys_sdformat
+                0x0000000070005c44                sys_totaldiskspace
+                0x0000000070005c58                sys_freediskspace
+                0x0000000070005c6c                sys_create
+                0x0000000070005c80                sys_delete
+                0x0000000070005c94                sys_rename
+                0x0000000070005ca8                sys_open
+                0x0000000070005cbc                sys_close
+                0x0000000070005cd0                sys_closeall
+                0x0000000070005ce4                sys_get_filesize
+                0x0000000070005cf8                sys_seek
+                0x0000000070005d0c                sys_read
+                0x0000000070005d20                sys_write
+                0x0000000070005d34                sys_write2
+                0x0000000070005d48                sys_findfirst
+                0x0000000070005d5c                sys_findnext
+                0x0000000070005d70                sys_findclose
+ .text          0x0000000070005d84       0x14 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(misc.o)
+                0x0000000070005d84                sys_dict_info
+ .text          0x0000000070005d98        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+ .text          0x0000000070005d98        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+ .text          0x0000000070005d98        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+ .text          0x0000000070005d98        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+ .text          0x0000000070005d98        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+ *(.text*)
+ .text.startup  0x0000000070005d98      0x748 src/main.o
+                0x0000000070005d98                main
+ .text.draw_glyph
+                0x00000000700064e0       0xb4 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x00000000700064e0                draw_glyph
+ .text.get_font
+                0x0000000070006594        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x0000000070006594                get_font
+ .text.set_font
+                0x00000000700065a0       0x1c /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x00000000700065a0                set_font
+ .text.render_text
+                0x00000000700065bc       0xa8 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x00000000700065bc                render_text
+ .text.get_pixel
+                0x0000000070006664       0x68 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x0000000070006664                get_pixel
+ .text.set_pixel
+                0x00000000700066cc       0x5c /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x00000000700066cc                set_pixel
+ .text.draw_rect
+                0x0000000070006728       0x98 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x0000000070006728                draw_rect
+ .text.invert_rect
+                0x00000000700067c0       0x94 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x00000000700067c0                invert_rect
+ .text.draw_line
+                0x0000000070006854       0xf0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x0000000070006854                draw_line
+ .text.draw_ellipse
+                0x0000000070006944      0x158 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x0000000070006944                draw_ellipse
+ .text.draw_circle
+                0x0000000070006a9c        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+                0x0000000070006a9c                draw_circle
+ .text.create_rgb16
+                0x0000000070006aa8       0x20 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+                0x0000000070006aa8                create_rgb16
+ .text.set_pen  0x0000000070006ac8        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+                0x0000000070006ac8                set_pen
+ .text.get_pen  0x0000000070006ad4        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+                0x0000000070006ad4                get_pen
+ .text.lcdc_set_vram_address
+                0x0000000070006ae0        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006ae0                lcdc_set_vram_address
+ .text.lcdc_get_vram_address
+                0x0000000070006aec        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006aec                lcdc_get_vram_address
+ .text.lcdc_get_dimensions
+                0x0000000070006af8       0x18 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006af8                lcdc_get_dimensions
+ .text.lcdc_read_word
+                0x0000000070006b10        0xc /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006b10                lcdc_read_word
+ .text.lcdc_write_word
+                0x0000000070006b1c       0x10 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006b1c                lcdc_write_word
+ .text.lcdc_write_cmd
+                0x0000000070006b2c       0x28 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006b2c                lcdc_write_cmd
+ .text.lcdc_set_window
+                0x0000000070006b54       0xa4 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006b54                lcdc_set_window
+ .text.lcdc_copy_vram
+                0x0000000070006bf8       0xa0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+                0x0000000070006bf8                lcdc_copy_vram
+ .text.keypad_read
+                0x0000000070006c98       0xc0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                0x0000000070006c98                keypad_read
+ .text.get_key_pressed
+                0x0000000070006d58       0x50 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                0x0000000070006d58                get_key_pressed
+ .text.get_key_state
+                0x0000000070006da8       0x44 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                0x0000000070006da8                get_key_state
+ *(.rodata)
+ .rodata        0x0000000070006dec        0x8 src/main.o
+ .rodata        0x0000000070006df4        0x8 src/libc/logger.o
+ .rodata        0x0000000070006dfc       0x3f src/libct/input.o
+ *fill*         0x0000000070006e3b        0x1 
+ .rodata        0x0000000070006e3c       0x24 src/libct/ui/dialog/user_input_dialog.o
+ .rodata        0x0000000070006e60      0x408 src/libct/ui/dialog/memo_editor.o
+ .rodata        0x0000000070007268      0x238 src/libct/fonts/jpn-font.o
+                0x00000000700072a8                japanese8x8
+ .rodata        0x00000000700074a0      0x474 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x00000000700074a0                english8x12
+ *(.rodata*)
+ .rodata.str1.4
+                0x0000000070007914      0x33c src/main.o
+                                        0x340 (size before relaxing)
+ .rodata.str1.4
+                0x0000000070007c50       0x19 src/libc/logger.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000070007c69        0x3 
+ .rodata.str1.4
+                0x0000000070007c6c       0xbf src/libc/memmgr.o
+                                         0xc2 (size before relaxing)
+ *fill*         0x0000000070007d2b        0x1 
+ .rodata.str1.4
+                0x0000000070007d2c        0x7 src/libc/sprintf.o
+ *fill*         0x0000000070007d33        0x1 
+ .rodata.str1.4
+                0x0000000070007d34       0x19 src/libc/stdlib.o
+ *fill*         0x0000000070007d4d        0x3 
+ .rodata.str1.4
+                0x0000000070007d50        0x6 src/libct/fsc/fs-control.o
+                                         0x11 (size before relaxing)
+ *fill*         0x0000000070007d56        0x2 
+ .rodata.str1.4
+                0x0000000070007d58      0x18f src/libct/ui/dialog/user_input_dialog.o
+                                        0x1a1 (size before relaxing)
+ *fill*         0x0000000070007ee7        0x1 
+ .rodata.str1.4
+                0x0000000070007ee8       0x3b src/libct/ui/dialog/user_select_dialog.o
+                                         0x46 (size before relaxing)
+ *fill*         0x0000000070007f23        0x1 
+ .rodata.str1.4
+                0x0000000070007f24      0x278 src/libct/ui/dialog/memo_editor.o
+                                        0x27c (size before relaxing)
+ .rodata.str1.4
+                0x000000007000819c      0x14d src/libct/ui/dialog/system_storage_info.o
+ *fill*         0x00000000700082e9        0x3 
+ .rodata.str1.4
+                0x00000000700082ec       0xea src/libct/ui/dialog/file_copy.o
+ *fill*         0x00000000700083d6        0x2 
+ .rodata.str1.4
+                0x00000000700083d8      0x104 src/libct/ui/fake_UI/Binary_view.o
+                                        0x101 (size before relaxing)
+                0x00000000700084dc                _etext = .
+
+.rela.dyn       0x00000000700084dc        0x0
+ .rela.text     0x00000000700084dc        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+ .rela.text.keypad_read
+                0x00000000700084dc        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+ .rela.text.get_key_pressed
+                0x00000000700084dc        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+ .rela.text.get_key_state
+                0x00000000700084dc        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+
+.bss            0x000000007400004c     0x2a2c
+                0x000000007400004c                _sbss = .
+ *(.bss)
+ .bss           0x000000007400004c        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+ .bss           0x000000007400004c      0x81c src/main.o
+                0x000000007400004c                prev_selected_index
+                0x0000000074000050                selected_index
+                0x0000000074000054                scroll_offset
+                0x0000000074000058                current_files
+ .bss           0x0000000074000868        0x0 src/libc/isdigit.o
+ .bss           0x0000000074000868       0x64 src/libc/logger.o
+ .bss           0x00000000740008cc        0x0 src/libc/memcmp.o
+ .bss           0x00000000740008cc       0x18 src/libc/memmgr.o
+ .bss           0x00000000740008e4        0x0 src/libc/sprintf.o
+ .bss           0x00000000740008e4        0x0 src/libc/stdio.o
+ .bss           0x00000000740008e4        0x4 src/libc/stdlib.o
+ .bss           0x00000000740008e8        0x0 src/libc/strcasecmp.o
+ .bss           0x00000000740008e8        0x0 src/libc/strcat.o
+ .bss           0x00000000740008e8        0x0 src/libc/strchr.o
+ .bss           0x00000000740008e8        0x0 src/libc/strchrnul.o
+ .bss           0x00000000740008e8        0x0 src/libc/strcmp.o
+ .bss           0x00000000740008e8        0x0 src/libc/strdup.o
+ .bss           0x00000000740008e8        0x0 src/libc/strncat.o
+ .bss           0x00000000740008e8        0x0 src/libc/strpbrk.o
+ .bss           0x00000000740008e8        0x0 src/libc/strrchr.o
+ .bss           0x00000000740008e8        0x0 src/libc/time.o
+ .bss           0x00000000740008e8        0x0 src/libc/tolower.o
+ .bss           0x00000000740008e8        0x0 src/libct/input.o
+ .bss           0x00000000740008e8        0x0 src/libct/print.o
+ .bss           0x00000000740008e8        0x0 src/libct/fsc/fs-control.o
+ .bss           0x00000000740008e8      0x104 src/libct/ui/dialog/user_input_dialog.o
+ .bss           0x00000000740009ec        0x0 src/libct/ui/dialog/user_select_dialog.o
+ .bss           0x00000000740009ec     0x200c src/libct/ui/dialog/memo_editor.o
+ .bss           0x00000000740029f8        0x0 src/libct/fonts/jpn-font.o
+ .bss           0x00000000740029f8        0x0 src/libct/ui/dialog/system_storage_info.o
+ .bss           0x00000000740029f8        0x0 src/libct/ui/dialog/file_copy.o
+ .bss           0x00000000740029f8        0x0 src/libct/ui/fake_UI/Binary_view.o
+ .bss           0x00000000740029f8        0x0 src/libc/_exit.o
+ .bss           0x00000000740029f8        0x0 src/libc/memcpy.o
+ .bss           0x00000000740029f8        0x0 src/libc/memset.o
+ .bss           0x00000000740029f8        0x0 src/libc/strcpy.o
+ .bss           0x00000000740029f8        0x0 src/libc/strlen.o
+ .bss           0x00000000740029f8        0x0 src/libc/strncpy.o
+ .bss           0x00000000740029f8        0x0 src/libc/udivsi3.o
+ .bss           0x00000000740029f8        0x0 src/libc/udivsi3_i4i.o
+ .bss           0x00000000740029f8        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(file.o)
+ .bss           0x00000000740029f8        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(misc.o)
+ .bss           0x00000000740029f8        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+ .bss           0x00000000740029f8        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+ .bss           0x00000000740029f8        0x2 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+ .bss           0x00000000740029fa        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+ *fill*         0x00000000740029fa        0x2 
+ .bss           0x00000000740029fc       0x18 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000074002a14       0x4c src/libct/fsc/fs-control.o
+                0x0000000074002a14                type
+                0x0000000074002a18                handle
+                0x0000000074002a1c                filename
+                0x0000000074002a5c                ret
+ COMMON         0x0000000074002a60       0x18 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                0x0000000074002a60                key_state
+                0x0000000074002a6c                key_press
+                0x0000000074002a78                _ebss = .
+
+.data           0x0000000074002a78       0x34 load address 0x00000000700084dc
+                0x0000000074002a78                _sdata = .
+ *(.data)
+ .data          0x0000000074002a78        0x0 /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/../../../../sh-elf/lib/exword_crt0.o
+ .data          0x0000000074002a78        0x4 src/main.o
+                0x0000000074002a78                refresh_needed
+ .data          0x0000000074002a7c        0x0 src/libc/isdigit.o
+ .data          0x0000000074002a7c        0x4 src/libc/logger.o
+                0x0000000074002a7c                log_fd
+ .data          0x0000000074002a80        0x0 src/libc/memcmp.o
+ .data          0x0000000074002a80        0x0 src/libc/memmgr.o
+ .data          0x0000000074002a80        0x0 src/libc/sprintf.o
+ .data          0x0000000074002a80        0x0 src/libc/stdio.o
+ .data          0x0000000074002a80        0x4 src/libc/stdlib.o
+ .data          0x0000000074002a84        0x0 src/libc/strcasecmp.o
+ .data          0x0000000074002a84        0x0 src/libc/strcat.o
+ .data          0x0000000074002a84        0x0 src/libc/strchr.o
+ .data          0x0000000074002a84        0x0 src/libc/strchrnul.o
+ .data          0x0000000074002a84        0x0 src/libc/strcmp.o
+ .data          0x0000000074002a84        0x0 src/libc/strdup.o
+ .data          0x0000000074002a84        0x0 src/libc/strncat.o
+ .data          0x0000000074002a84        0x0 src/libc/strpbrk.o
+ .data          0x0000000074002a84        0x0 src/libc/strrchr.o
+ .data          0x0000000074002a84        0x0 src/libc/time.o
+ .data          0x0000000074002a84        0x0 src/libc/tolower.o
+ .data          0x0000000074002a84        0x0 src/libct/input.o
+ .data          0x0000000074002a84        0x0 src/libct/print.o
+ .data          0x0000000074002a84        0x0 src/libct/fsc/fs-control.o
+ .data          0x0000000074002a84        0x0 src/libct/ui/dialog/user_input_dialog.o
+ .data          0x0000000074002a84        0x0 src/libct/ui/dialog/user_select_dialog.o
+ .data          0x0000000074002a84        0x0 src/libct/ui/dialog/memo_editor.o
+ .data          0x0000000074002a84        0xc src/libct/fonts/jpn-font.o
+                0x0000000074002a84                jpn_system
+ .data          0x0000000074002a90        0x0 src/libct/ui/dialog/system_storage_info.o
+ .data          0x0000000074002a90        0x0 src/libct/ui/dialog/file_copy.o
+ .data          0x0000000074002a90        0x0 src/libct/ui/fake_UI/Binary_view.o
+ .data          0x0000000074002a90        0x0 src/libc/_exit.o
+ .data          0x0000000074002a90        0x0 src/libc/memcpy.o
+ .data          0x0000000074002a90        0x0 src/libc/memset.o
+ .data          0x0000000074002a90        0x0 src/libc/strcpy.o
+ .data          0x0000000074002a90        0x0 src/libc/strlen.o
+ .data          0x0000000074002a90        0x0 src/libc/strncpy.o
+ .data          0x0000000074002a90        0x0 src/libc/udivsi3.o
+ .data          0x0000000074002a90        0x0 src/libc/udivsi3_i4i.o
+ .data          0x0000000074002a90        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(file.o)
+ .data          0x0000000074002a90        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a(misc.o)
+ .data          0x0000000074002a90       0x10 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(text.o)
+                0x0000000074002a90                in_use
+                0x0000000074002a94                system
+ .data          0x0000000074002aa0        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(drawing.o)
+ .data          0x0000000074002aa0        0x0 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(color.o)
+ .data          0x0000000074002aa0        0x8 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a(lcdc.o)
+ .data          0x0000000074002aa8        0x4 /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a(keypad.o)
+                0x0000000074002aa8                keypad
+ *(.data*)
+                0x0000000074002aac                _edata = .
+
+/DISCARD/
+ *(.comment)
+ *(.eh_frame)
+LOAD src/main.o
+LOAD src/libc/isdigit.o
+LOAD src/libc/logger.o
+LOAD src/libc/memcmp.o
+LOAD src/libc/memmgr.o
+LOAD src/libc/sprintf.o
+LOAD src/libc/stdio.o
+LOAD src/libc/stdlib.o
+LOAD src/libc/strcasecmp.o
+LOAD src/libc/strcat.o
+LOAD src/libc/strchr.o
+LOAD src/libc/strchrnul.o
+LOAD src/libc/strcmp.o
+LOAD src/libc/strdup.o
+LOAD src/libc/strncat.o
+LOAD src/libc/strpbrk.o
+LOAD src/libc/strrchr.o
+LOAD src/libc/time.o
+LOAD src/libc/tolower.o
+LOAD src/libct/input.o
+LOAD src/libct/print.o
+LOAD src/libct/fsc/fs-control.o
+LOAD src/libct/ui/dialog/user_input_dialog.o
+LOAD src/libct/ui/dialog/user_select_dialog.o
+LOAD src/libct/ui/dialog/memo_editor.o
+LOAD src/libct/fonts/jpn-font.o
+LOAD src/libct/ui/dialog/system_storage_info.o
+LOAD src/libct/ui/dialog/file_copy.o
+LOAD src/libct/ui/fake_UI/Binary_view.o
+LOAD src/libc/_exit.o
+LOAD src/libc/memcpy.o
+LOAD src/libc/memset.o
+LOAD src/libc/strcpy.o
+LOAD src/libc/strlen.o
+LOAD src/libc/strncpy.o
+LOAD src/libc/udivsi3.o
+LOAD src/libc/udivsi3_i4i.o
+LOAD /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libdataplus.a
+LOAD /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libgraphics.a
+LOAD /home/hiroki/ダウンロード/devkitPro/libdataplus/lib/libsh4a.a
+LOAD /home/hiroki/ダウンロード/devkitPro/devkitSH4/bin/../lib/gcc/sh-elf/8.3.0/libgcc.a
+OUTPUT(memoapp.elf elf32-sh)
